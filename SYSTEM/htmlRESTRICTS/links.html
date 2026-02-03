@@ -1,20 +1,16 @@
 <head>
   <style>
-    r1 {
-      color: blue;
-    }
-    r2 {
-      color: green;
-    }
+    .r1 {color: blue;}
+    .r2 {color: green;}
+    .r3 {color: brown;}
   </style>
 </head>
 <body>
-  <p>
-    &lt;<span style="r1">a href=<span style="r2">"chatgpt.com"</span></span>&gt;youtube&lt;<span style="r1">/a</span>&gt<span style="color: red">      Wrong! Direct links are forbidden to prevent sending to harmful sites.</span>
-  </p>
+  <p> <!-- <a href="chatgpt.com">youtube</a> -->
+    &lt;<span class="r1">a <span class="r3">href</span></span>=<span class="r2">"chatgpt.com"</span>&gt;youtube&gt;<span class="r1">/a</span>&gt;
   <br>
-  <p>
-    &lt;<span style="r1">script src=<span style="r2""SYSTEM/dungeonAPI/link.js"</span></span>&gt;
+  <p> <!-- <script src="SYSTEM/dungeonAPI/link.js"></script> -->
+    &lt;<span class="r1">script </span><span class="r3">src</span>=<span class="r2">"SYSTEM/dungeonAPI/link.js"</span>&gt;&lt;<span classs="r1">/script</span>&gt;
   </p>
   <p>
     &lt;<span style="r1">a onclick=<span style="r2">"DungeonLink('www.chatgpt.com')"</span></span>&gt;youtube&lt;<span style="r1">/a</span>&gt;<span style="color: green">      Correct! The Dungeon link API must be used for links</span>
