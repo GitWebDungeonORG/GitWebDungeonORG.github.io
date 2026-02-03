@@ -60,7 +60,7 @@ For full knowledge: Read all of them
   
   Restriction|Solution
   -----------|--------
-  Links are forbidden|<pre><code><html src="SYSTEM/html_RESTRICTS/Links.html"></html></code></pre>
+  Links are forbidden|<pre><code><iframe src="SYSTEM/htmlRESTRICTS/links.html"></iframe></code></pre>
 </details>
 
 
