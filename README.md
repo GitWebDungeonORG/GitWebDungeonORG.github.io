@@ -37,7 +37,7 @@ Be aware: The Dungeon is **dangerous**!
 ## 3. Editor info
 Here you can find important info for editors!
 
-To start quick read: Registration, Creating, Warnings and Editors/Owners
+To start quick read: Registration, Creating Pages, Warnings and Editors/Owners
 
 For full knowledge: Read all of them
 <details>
@@ -45,6 +45,22 @@ For full knowledge: Read all of them
 
   To register do the following:
   1. Open the [REGISTER] file
+  2. Follow the instrcution in it
+  3. You're done!
+</details>
+<details>
+  <summary>Creating Pages</summary>
+
+  To create a page is simple:
+  1. Make a .html file
+  2. Commit it
+  3. You're done!
+
+  Do know that there are several restrictions:
+  
+  Restriction|Solution
+  -----------|--------
+  Links are forbidden|<pre><code><html src="SYSTEM/html_RESTRICTS/Links.html"></html></code></pre>
 </details>
 
 
