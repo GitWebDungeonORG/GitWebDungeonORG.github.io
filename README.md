@@ -58,9 +58,22 @@ For full knowledge: Read all of them
 
   Do know that there are several restrictions:
   
-  Restriction|Solution
-  -----------|--------
-  Links are forbidden|<pre><code><iframe src="SYSTEM/htmlRESTRICTS/links.html"></iframe></code></pre>
+  <table>
+  <thead>
+    <tr>
+      <th>Restriction</th>
+      <th>Solution</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Links are forbidden</td>
+      <td>
+        <iframe src="SYSTEM/htmlRESTRICTS/links.html" width="400" height="200"></iframe>
+      </td>
+    </tr>
+  </tbody>
+</table>
 </details>
 
 
